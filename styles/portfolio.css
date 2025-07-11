@@ -8,8 +8,9 @@
 /* Background bg */
 .background-bg{
     background-image: url('../images/Hero-bg.png');
-
+    padding-bottom: 140px;
 }
+/* NAV STYLES */
 nav{
     display: flex;
     align-items: center;
@@ -17,10 +18,11 @@ nav{
     margin: 0px 150px;
     padding-top: 50px;
 }
-/* LOGO */
+
+/* LOGO STYLES*/
 nav .logo{
     color:#4E47FF;
-    font-size: 34px;
+    font-size: 38px;
 }
 .btn-primary{
     background-color: #4E47FF;
@@ -38,6 +40,8 @@ nav .logo{
     color: black;
     font-size: 16px;
 }
+
+/* BANNER STYLES */
 .banner{
     text-align: center
 }
@@ -46,4 +50,127 @@ nav .logo{
     font-size: 65px;
     font-weight: bold;
 }
+
+/* MAIN SECTION */
+main{
+    margin: 100px 150px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action h4{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 4px;
+}
+.action p{
+    font-size: 18px;
+    color: 252432;
+    line-height: 6px;
+    padding-bottom: 10px;
+}
+.action .right-img img{
+    border-radius: 48px;
+}
+
+/* TEXT STYLES */
+.text-style{
+    background-color: #E5E7FF;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 100px;
+}
+.text-style h4{
+    color: black;
+    font-size: 38px;
+}
+.nbr-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    margin: 15px;
+}
+.nbr-value{
+    font-weight: bold;
+    font-size: 60px;
+    color: #4E47FF;
+}
+.stat-label{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #757575;
+}
+
+
+
+
+.articale-section{
+    margin: 130px;
+}
+.articale-section h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* CONTENT */
+.content{
+    display: flex;
+     gap: 30px;
+     justify-content: space-between;
+    
+   
+    
+}
+.articale-card{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 440px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+.girl-pic{
+    display: flex;
+    gap: 10px; 
+    margin-top: 20px;
+}
+.girl{
+    border-radius: 50%;
+}
+.name{
+    color: #757575;
+}
+.date{
+    color: #B3B3B3; 
+}
+
+
+/* content articale style */
+.content-articale{
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    justify-items: center;
+    padding: 71px 150px;
+}
+.ready{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 10px;
+}
+.para{
+    color: #B3B3B3;
+}
+
+.wc-pic{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+
 
