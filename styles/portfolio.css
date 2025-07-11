@@ -172,5 +172,41 @@ main{
     margin-top: 20px;
 }
 
-
-
+/* FOOTERS STYLES */
+.footer-column{
+    display: flex;
+    padding: 90px 150px;
+    justify-content: space-between;
+    gap: 100px;
+}
+.lets{
+    font-size: 97px;
+    font-weight: bold;
+}
+.right input[type="email"]{
+    width: 497px;
+    height: 30px;
+    padding: 20px 0px 20px 32px;
+    outline: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.right input[type="name"]{
+    width: 497px;
+    height: 30px;
+    padding: 20px 0px 20px 32px;
+    outline: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.right textarea{
+    margin-top: 12px;
+    width: 497px;
+    height: 60px;
+    padding: 20px 0px 20px 32px;
+    outline: none;
+}
+.right .get-in{
+    width: 530px;
+    margin-top: 20px;
+}
